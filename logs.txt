@@ -1,0 +1,5 @@
+Essa é a versão 0.7 do projeto amitaf (frontend)
+-- Adição de conteúdo na pagina principal
+
+Iniciada dia 16/11/2024
+finalizada dia ??/??/????

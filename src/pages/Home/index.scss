@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// Geral
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Julius Sans One";
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+// Pagina principal - Navegação
+
+.Home {
+  header {
+    display: flex;
+    font-family: "Julius Sans One";
+    background-color: #FFD5EC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 0px 5px #000000;
+
+    img {
+      width: 65px;
+      margin-left: 25px;
+    }
+
+    nav {
+      display: flex;
+      margin-left: auto;
+      align-items: center;
+
+      img {
+        width: 35px;
+      }
+
+      a {
+        padding-left: 10px;
+        margin-right: 25px;
+        color: #000;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline #000;
+      }
+    }
+  }
+}
+
+// Pagina principal - Main
+
+.Home {
+  main {
+    display: flex;
+    padding-top: 70px;
+    /* Adicione um espaço equivalente à altura do header */
+    justify-content: space-between;
+    background-color: #D9D9D9;
+
+    .mulher {
+      width: 710px;
+    }
+
+    .conteudo {
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .letreiro {
+        padding: 30px;
+        width: 450px;
+      }
+
+      .logo-amitaf {
+        padding: 30px;
+        width: 300px;
+      }
+    }
+  }
+
+  .transicao {
+    padding: 10px;
+    text-align: center;
+    background-color: #FFD5EC;
+  }
+}
+
+// Pagina principal - Sobre nós
+
+.Home {
+  .sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    img {
+      width: 500px;
+    }
+
+    .textos {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+
+      h1 {
+        padding-bottom: 20px;
+        text-underline-offset: 5px;
+        text-decoration: underline #FFD5EC;
+      }
+
+      p {
+        padding-bottom: 20px;
+        font-size: 28px;
+        max-width: 670px;
+
+        span {
+          color: #FFB5DB;
+        }
+      }
+    }
+  }
+
+  .procedimentos {
+    padding: 10px;
+    text-align: center;
+    background-color: #FFD5EC;
+  }
+}
+
+// Pagina principal - Procedimentos
+
+.Home {
+
+  .mudardps {
+    margin-top: 20px;
+    text-align: center;
+    text-underline-offset: 5px;
+    text-decoration: underline #FFD5EC;
+  }
+
+  .cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      width: 250px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      border: none;
+      color: #fff;
+      border-radius: 10px;
+      background-color: #FFD5EC;
+    }
+
+    img {
+      width: 200px;
+    }
+
+    .card {
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0px 4px 10px #808080;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      h1 {
+        padding: 20px;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 6px 15px #606060;
+      }
+    }
+  }
+}
+
+// Pagina principal - Footer
+
+.Home {
+  footer {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    background-color: #FFD5EC;
+
+    img {
+      width: 70px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+
+    .redessociais {
+      display: flex;
+      gap: 10px;
+
+      i {
+        padding: 5px;
+        color: #000;
+        border-radius: 5px;
+        background-color: #FFB5DB;
+      }
+    }
+  }
+}
+
+// Pagina principal (Mobile) - Navegação
