@@ -3,9 +3,8 @@ import './index.scss';
 export default function Login() {
   return (
       <div class="container">
-
         <div class="login-box">
-            <img src="https://via.placeholder.com/80" alt="logo-amitaf" class="logo-amitaf"/> 
+            <img src="/assets/images/amitaf.png" alt="logo-amitaf" class="logo-amitaf"/> 
                 <h2>Conta - ADM</h2>
             <input type="text" placeholder="CPF"/>
             <input type="password" placeholder="Senha"/>
