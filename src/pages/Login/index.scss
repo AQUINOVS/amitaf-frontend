@@ -1,15 +1,8 @@
-Login {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
+.centraliza {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /* Centraliza verticalmente */
     background-color: #f0f0f0;
 }
 
