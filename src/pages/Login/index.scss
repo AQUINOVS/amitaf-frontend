@@ -6,7 +6,7 @@
     background-color: #f0f0f0;
 }
 
-.container {
+.containerlogin {
     display: flex;
     width: 800px;
     height: 400px;
@@ -65,10 +65,8 @@
     margin-top: 20px;
 }
 
-.login-box .redes-sociais img {
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
+.login-box .redes-sociais i {
+    color: #000;
 }
 
 .login-box p {
